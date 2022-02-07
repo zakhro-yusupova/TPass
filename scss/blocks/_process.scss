@@ -1,0 +1,50 @@
+.process{
+  padding: 50px 0 130px;
+}
+
+.process__inner{
+  padding: 115px 0 97px;
+  background-color: #F4F5F6;
+  border-radius: 50px;
+  position: relative;
+
+  &::before{
+    content: "";
+    position: absolute;
+    width: 1100px;
+    height: 648px;
+    top: -50px;
+    left: 30px;
+right: 50px;
+
+  background-image: url("../../images/work.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 250px) calc(100%) ;
+  background-size: contain;
+}
+}
+.process__info{
+  width: 414px;
+  margin-left: 560px;
+}
+
+.process__text{
+  font-size: 18px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.process__title{
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 21px;
+}
+
+.process__subtext{
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 50px;
+}

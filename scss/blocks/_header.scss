@@ -1,0 +1,55 @@
+.header{
+  background-color: #F5F6F7;
+  padding-top: 30px;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 586px;
+  padding: 0;
+}
+
+.header__item:nth-child(2){
+  margin-right: 43px;
+  margin-left: 69px;
+}
+
+.header__link{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: $dark-blue-color;
+  text-decoration: none;
+  transition: 0.5s ease;
+
+  &:hover{
+    color: $light-blue-color;
+  }
+}
+
+.header__download-link{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 26px;
+  border: 1px solid $dark-blue-color;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: $dark-blue-color;
+  color: #fff;
+  transition: 0.5s ease;
+
+  &:hover{
+    color: $dark-blue-color;
+    background-color: #fff;
+  }
+}

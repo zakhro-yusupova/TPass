@@ -1,0 +1,48 @@
+.gifts{
+  padding: 170px 0 130px;
+}
+
+.gifts__inner{
+  padding: 115px 0 97px;
+  background-color: #F4F5F6;
+  border-radius: 50px;
+  position: relative;
+
+  &::after{
+    content: "";
+    position: absolute;
+    width: 547px;
+    height: 640px;
+    top: -50px;
+    right: 20px ;
+    background-image: url("../../images/gifts.png");
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-size: contain;
+  }
+}
+.gifts__info{
+  width: 414px;
+  margin-left: 140px;
+}
+
+.gifts__text{
+  font-size: 18px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.gifts__title{
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 21px;
+}
+
+.gifts__subtext{
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 50px;
+}
